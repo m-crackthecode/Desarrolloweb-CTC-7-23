@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "UTF-8">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+    <div>
+        <label for = "nombre">Nombre Completo: </label>
+        <input type = "text" id = "nombre" name = "nombre">
+    </div>
+
+    <div>
+        <label for = "email">Correo electronico: </label>
+        <input type = "email" id = "email" name = "email">
+    </div>
+
+    <div>
+        <label for = "telefono">Telefono de Contacto: </label>
+        <input type = "text" id = "telefono" name = "telefono" placeholder = "+51 978 654 321">
+    </div>
+
+    <div>
+        <label for = "tipo-mensaje">Tipo de mensaje: </label>
+        <select id = "tipo-mensaje">
+        <option value = "sugerencia">Sugerencia</option>
+        <option value = "felicitaciones">Felicitaciones</option>
+        <option value = "reclamo">Reclamo</option>
+    </select>
+    </div>
+    
+    <div>
+        <label for = "mensaje">Mensaje: </label>     
+    </div>
+
+    <div>  
+        <textarea id = "mensaje"></textarea>   
+    </div>
+
+    <div>
+        <input type = "checkbox" id = "ofertas">
+        <label for = "ofertas">Deseo recibir ofertas y notificaciones en mi correo electronico.</label>
+    </div>
+
+    <div>
+        <input type = "reset" value = "Limpiar">
+        <input type = "submit" value = "Enviar">
+    </div>
+
+    <!--Otra forma de insertar botones.-->
+    <div>
+        <button type ="reset">Limpiar</button>
+        <button type ="submit">Enviar</button>
+    </div>
+
+</body>
+</html>

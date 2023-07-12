@@ -1,0 +1,56 @@
+.figura{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+#fig2{
+    background-color: pink;
+    padding-top: 40px;
+}
+
+.contenedor{
+    background-color: deeppink;
+}
+
+#p1{
+    background-color: darkorchid;
+    display: inline-block;
+    padding: 100px 30px 60px 50px;
+
+    border-width: 10px 20px 30px 40px;
+
+    border-style: solid dotted groove dashed;
+
+    border-color: beige magenta skyblue goldenrod;
+
+    border-radius: 10%;
+}
+
+#p3{
+    background-color: orange;
+    display: inline-block;
+
+    border: 20px double green;
+}
+
+#fig1, #fig2 {
+    padding-left: 30px;
+}
+
+#fig3, #fig4 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#cuadrado {
+    background-color: blue;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding: 50px;
+    border: 20px double blue;
+
+    box-sizing: border-box;
+}

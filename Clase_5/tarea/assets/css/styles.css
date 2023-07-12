@@ -1,0 +1,16 @@
+.rectangulo{
+    display: inline-block;
+    width: 10%;
+    height: 100px;
+    background-color: blueviolet;
+    background-image: url('img/velociraptor.png');
+    background-size: contain;
+}
+
+.rectangulo:hover {
+    background-color: darkturquoise;
+}
+
+.rectangulo:active {
+    visibility: hidden;
+}
