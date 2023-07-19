@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+}
+
+.fondo-rojo{
+    background-color: red;
+}
+
+#parrafo2{
+    font-weight: 800;
+    font-style: italic;
+}
+
+#rectangulo-verde{
+    background-color: green;
+
+    height: 200px;
+    width: 100px;
+}
+
+/* Unidades absolutas */
+.w-800px{
+    width: 800px;
+}
+
+/* Unidades relativas */
+.w-80vw{
+    width: 80vw;
+}
+
